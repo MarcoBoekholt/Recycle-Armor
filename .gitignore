@@ -1,0 +1,33 @@
+
+.gradle/2.14/taskArtifacts/cache.properties
+.gradle/2.14/taskArtifacts/cache.properties.lock
+.gradle/2.14/taskArtifacts/fileHashes.bin
+.gradle/2.14/taskArtifacts/fileSnapshots.bin
+.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin
+.gradle/2.14/taskArtifacts/taskArtifacts.bin
+.gradle/2.14/taskArtifacts/treeSnapshots.bin
+.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin
+.gradle/gradle.log
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules/Recycle_Armor_api.iml
+.idea/modules/Recycle_Armor_main.iml
+.idea/modules/Recycle_Armor_test.iml
+.idea/workspace.xml
+build/tmp/makeStart/extracted/GradleStart.java
+build/tmp/makeStart/extracted/GradleStartServer.java
+build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleForgeHacks.java
+build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java
+build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/AccessTransformerTweaker.java
+build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/CoremodTweaker.java
+forge-1.12.2-14.23.5.2772-changelog.txt
+out/production/Recycle_Armor_main/mcmod.info
+out/production/Recycle_Armor_main/me/mabo/ra/init/RecipesInit.class
+out/production/Recycle_Armor_main/me/mabo/ra/Main.class
+out/production/Recycle_Armor_main/me/mabo/ra/proxy/ClientProxy.class
+out/production/Recycle_Armor_main/me/mabo/ra/proxy/CommonProxy.class
+out/production/Recycle_Armor_main/me/mabo/ra/RecycleArmor.class
+out/production/Recycle_Armor_main/me/mabo/ra/util/Reference.class
+out/production/Recycle_Armor_main/pack.mcmeta
+Recycle Armor.ipr
+Recycle Armor.iws

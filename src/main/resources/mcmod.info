@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ra",
+  "name": "Recycle Armor",
+  "description": "A mod that gives you the abilities to smelt armor pieces to retrieve ingots back.",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MaBo"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
