@@ -4,7 +4,7 @@
 
 Recycle Armor is a Minecraft mod that gives the player the ability to smelt armor and get iron/gold ingot or diamonds in return.
 
-# Smelting Returns
+# Smelting Outputs
 The Input is the item that you want to smelt and the output is the items you get back from smelting.
 
 Input | Output
