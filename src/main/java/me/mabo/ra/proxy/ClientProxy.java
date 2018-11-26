@@ -1,23 +1,22 @@
 package me.mabo.ra.proxy;
 
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraftforge.client.model.ModelLoader;
 
 public class ClientProxy extends CommonProxy {
 
-    @Override
-    public void preInit(FMLPreInitializationEvent event) {
-        super.preInit(event);
+    public void preInit() {
+        super.preInit();
+        ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("ra:recycle_furnace", "inventory");
+        final int DEFAULT_ITEM_SUBTYPE = 0;
+        ModelLoader.setCustomModelResourceLocation(CommonProxy.itemBlockInventoryAdvanced, DEFAULT_ITEM_SUBTYPE, itemModelResourceLocation);
     }
 
-    @Override
-    public void init(FMLInitializationEvent event) {
-        super.init(event);
+    public void init() {
+
     }
 
-    @Override
-    public void postInit(FMLPostInitializationEvent event) {
-        super.postInit(event);
+    public void postInit() {
+
     }
 }

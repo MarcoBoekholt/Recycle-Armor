@@ -2,14 +2,19 @@ package me.mabo.ra;
 
 import me.mabo.ra.init.RecipesInit;
 import me.mabo.ra.proxy.CommonProxy;
+import me.mabo.ra.util.ModChecker;
+import me.mabo.ra.util.RecycleArmorUtils;
 import me.mabo.ra.util.Reference;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 import java.util.logging.Logger;
 
@@ -25,9 +30,12 @@ public class RecycleArmor {
 
     public static Logger logger;
 
+    public static ModChecker modChecker;
+
     @Mod.EventHandler
     public static void preInit(FMLPreInitializationEvent e) {
         proxy.preInit();
+        modChecker = new ModChecker();
         logger = Logger.getLogger(Reference.MOD_ID);
     }
 
